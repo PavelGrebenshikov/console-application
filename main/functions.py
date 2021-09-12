@@ -44,7 +44,8 @@ def logic_arguments():
         print(list_files(args.list[0], args.list[1]))
     elif args.typeos:
         feature_tip()
-
+    else:
+        print("Введите аргумент, management.py --help")
 
 def removing_the_nesting_of_list(rlist=None):
     """
